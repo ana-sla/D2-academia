@@ -1,12 +1,18 @@
 nav{
     align-items: center;
     background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
 
 
 }
 body{
     margin: 0;
 
+}
+h1{
+    margin: 0;
 }
 
 header{
@@ -15,4 +21,20 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+img{
+    height: 200px;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+section img:nth-child(3):hover{
+    width: 100%;
+    height: 100%;
 }
