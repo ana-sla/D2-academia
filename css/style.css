@@ -8,3 +8,11 @@ body{
     margin: 0;
 
 }
+
+header{
+    background-image: url(../imagens/gloria.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
